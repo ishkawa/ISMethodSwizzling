@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import "ISMethodSwizzling.h"
 #import <objc/runtime.h>
 
 void ISSwizzleInstanceMethod(Class class, SEL originalSelector, SEL alternativeSelector)
